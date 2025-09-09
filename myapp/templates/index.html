@@ -2,9 +2,9 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-<h1>My blogs</h1>
+<h1 class="text-red-500 mt-5 mb-5 text-center font-bold">My blogs</h1>
 
-<ul>
+<ul class="ml-3xl mr-10">
     {% for blog in blogs%}
     <li>
         <h3>{{blog.tittle}}</h3>
