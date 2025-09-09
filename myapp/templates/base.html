@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{%block title %} Blogsite {% endblock%}</title>
+    <title>{% block title %} Blogsite {% endblock %}</title>
 </head>
 <body>
-    {% include "navbar.html"%}
-    {%block content%}
+    {% include "navbar.html" %}
+    {% block content %}
 
     {%endblock%}
-    {%include "footer.html"%}
+    {% include "footer.html" %}
 </body>
 </html>

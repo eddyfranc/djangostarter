@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title%} Home {%endblock%}
+{% block title %} Home {% endblock %}
 
 {% block content %}
 <h1>My blogs</h1>
@@ -10,8 +10,8 @@
         <h3>{{blog.tittle}}</h3>
         <p>{{blog.content}}</p>
         <p>{{blog.author}}</p>
-        <p>{{blog.}}</p>
     </li>
+    {% endfor %}
 </ul>
 
 {% endblock %}
