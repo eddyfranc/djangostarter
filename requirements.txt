@@ -1,0 +1,13 @@
+asgiref==3.9.1
+beautifulsoup4==4.13.5
+Django==5.2.6
+django-webtest==1.9.13
+legacy-cgi==2.6.3
+psycopg2-binary==2.9.10
+soupsieve==2.8
+sqlparse==0.5.3
+typing_extensions==4.15.0
+tzdata==2025.2
+waitress==3.0.2
+WebOb==1.8.9
+WebTest==3.0.6
